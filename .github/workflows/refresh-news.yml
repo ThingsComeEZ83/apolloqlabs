@@ -1,0 +1,31 @@
+# Runs in the GitHub Pages repo (apolloqlabs). Updates news.json only.
+name: Refresh official headlines
+on:
+  schedule:
+    - cron: '8,23,38,53 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch official U.S. government RSS/Atom feeds
+        env:
+          SEC_CONTACT: 'apolloqlabs-pages@users.noreply.github.com https://github.com/ThingsComeEZ83/apolloqlabs'
+        run: python3 fetch-news.py
+      - name: Commit news.json when the feed changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          if git diff --staged --quiet; then
+            echo "No headline changes."
+          else
+            git commit -m "Refresh official headlines"
+            git push
+          fi
