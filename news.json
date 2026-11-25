@@ -1,5 +1,5 @@
 {
- "built": "2026-11-25T03:46:40Z",
+ "built": "2026-11-25T04:53:55Z",
  "items": [
   {
    "t": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
@@ -16,14 +16,6 @@
    "kind": "press releases",
    "at": "2026-11-20T21:15:00Z",
    "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Major Economic Indicators Latest Numbers",
-   "url": "https://www.bls.gov/bls/",
-   "src": "BLS",
-   "kind": "economic releases",
-   "at": "2026-11-20T15:03:24Z",
-   "home": "https://www.bls.gov/"
   },
   {
    "t": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
@@ -320,8 +312,18 @@
    "kind": "economic releases",
    "at": "2026-06-25T12:30:00Z",
    "home": "https://www.bea.gov/news"
+  },
+  {
+   "t": "June 25, 2026 \u2013 Open Meeting",
+   "url": "https://www.fdic.gov/news/board-matters/2026/board-meeting-2026-06-25-1open",
+   "src": "FDIC",
+   "kind": "press releases",
+   "at": "2026-06-22T13:37:18Z",
+   "home": "https://www.fdic.gov/news/"
   }
  ],
- "errors": [],
+ "errors": [
+  "BLS: HTTP Error 403: Forbidden"
+ ],
  "credit": "Official U.S. government public information. Federal Reserve, FDIC, BLS and BEA releases are U.S. Government works (17 U.S.C. \u00a7105). Each headline links to its official page."
 }
