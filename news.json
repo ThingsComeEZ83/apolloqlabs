@@ -1,6 +1,22 @@
 {
- "built": "2026-11-25T12:07:03Z",
+ "built": "2026-11-25T13:31:23Z",
  "items": [
+  {
+   "t": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+   "src": "BEA",
+   "kind": "economic releases",
+   "at": "2026-11-25T13:30:00Z",
+   "home": "https://www.bea.gov/news"
+  },
+  {
+   "t": "Personal Income and Outlays, October 2026",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "src": "BEA",
+   "kind": "economic releases",
+   "at": "2026-11-25T13:30:00Z",
+   "home": "https://www.bea.gov/news"
+  },
   {
    "t": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
@@ -136,14 +152,6 @@
    "kind": "press releases",
    "at": "2026-10-29T15:19:09Z",
    "home": "https://www.fdic.gov/news/"
-  },
-  {
-   "t": "GDP (Advance Estimate), 3rd Quarter 2026",
-   "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-   "src": "BEA",
-   "kind": "economic releases",
-   "at": "2026-10-29T12:30:00Z",
-   "home": "https://www.bea.gov/news"
   },
   {
    "t": "Personal Income and Outlays, September 2026",
@@ -312,14 +320,6 @@
    "kind": "economic releases",
    "at": "2026-06-25T12:30:00Z",
    "home": "https://www.bea.gov/news"
-  },
-  {
-   "t": "June 25, 2026 \u2013 Open Meeting",
-   "url": "https://www.fdic.gov/news/board-matters/2026/board-meeting-2026-06-25-1open",
-   "src": "FDIC",
-   "kind": "press releases",
-   "at": "2026-06-22T13:37:18Z",
-   "home": "https://www.fdic.gov/news/"
   }
  ],
  "errors": [
