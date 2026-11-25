@@ -1,6 +1,22 @@
 {
- "built": "2026-11-25T19:37:01Z",
+ "built": "2026-11-25T20:34:27Z",
  "items": [
+  {
+   "t": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+   "src": "Federal Reserve",
+   "kind": "press releases",
+   "at": "2026-11-25T20:00:00Z",
+   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+  },
+  {
+   "t": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+   "src": "Federal Reserve",
+   "kind": "press releases",
+   "at": "2026-11-25T20:00:00Z",
+   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+  },
   {
    "t": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
    "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
@@ -207,22 +223,6 @@
    "src": "Federal Reserve",
    "kind": "press releases",
    "at": "2026-10-07T18:00:00Z",
-   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-   "src": "Federal Reserve",
-   "kind": "press releases",
-   "at": "2026-10-05T20:30:00Z",
-   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-   "src": "Federal Reserve",
-   "kind": "press releases",
-   "at": "2026-10-02T20:45:00Z",
    "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
   },
   {
