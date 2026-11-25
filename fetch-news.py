@@ -29,10 +29,11 @@ else:
 CONTACT = os.environ.get('SEC_CONTACT') or 'admin@apolloqlabs.example'
 UA = 'ApolloQLabs news %s' % CONTACT
 
+# Generic current 8-K Atom titles look like "8-K - Firm (0001234567) (Filer)"
+# and crowd out real market headlines. Company filings belong on the SEC
+# filings card, not in Market News. BEA news releases are official U.S.
+# Government works, same as the Fed / FDIC / BLS feeds already used.
 FEEDS = [
-    ('SEC EDGAR', '8-K filings',
-     'https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&owner=include&count=40&output=atom',
-     'https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K'),
     ('Federal Reserve', 'press releases',
      'https://www.federalreserve.gov/feeds/press_all.xml',
      'https://www.federalreserve.gov/newsevents/pressreleases.htm'),
@@ -42,7 +43,19 @@ FEEDS = [
     ('BLS', 'economic releases',
      'https://www.bls.gov/feed/bls_latest.rss',
      'https://www.bls.gov/'),
+    ('BEA', 'economic releases',
+     'https://apps.bea.gov/rss/rss.xml',
+     'https://www.bea.gov/news'),
 ]
+
+def is_generic_filing(title, src=''):
+    """True for raw EDGAR current-filing lines, e.g. '8-K - Acme (0001234567) (Filer)'."""
+    t = title or ''
+    if re.search(r'^\s*8-K(?:/A)?\b', t, re.I) and re.search(r'\(\s*\d{6,}\s*\)|\(\s*Filer\s*\)', t, re.I):
+        return True
+    if src == 'SEC EDGAR' and re.search(r'^\s*8-K(?:/A)?\b', t, re.I):
+        return True
+    return False
 
 def get(url, timeout=30):
     req = urllib.request.Request(url, headers={
@@ -124,6 +137,8 @@ def main():
                 href = (href or '').strip()
                 if not title or not href.startswith('http'):
                     continue
+                if is_generic_filing(title, src):
+                    continue
                 key = href.split('?')[0].rstrip('/')
                 if key in seen:
                     continue
@@ -135,9 +150,8 @@ def main():
             errors.append('%s: %s' % (src, e))
             print('FAIL', src, e, file=sys.stderr)
     out.sort(key=lambda x: x['at'] or '', reverse=True)
-    # Keep the feed mixed: 8-Ks arrive all day and would otherwise crowd out
-    # slower official sources (Fed, FDIC, BLS).
-    CAP = {'SEC EDGAR': 15}
+    # Keep the feed mixed so one agency (usually the Fed) does not fill the list.
+    CAP = {'Federal Reserve': 12, 'BEA': 8, 'FDIC': 5, 'BLS': 6, 'SEC EDGAR': 0}
     picked, rest = [], []
     counts = {}
     for item in out:
@@ -149,11 +163,12 @@ def main():
         else:
             rest.append(item)
     out = (picked + rest)[:40]
+    out.sort(key=lambda x: x['at'] or '', reverse=True)
     doc = {
         'built': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'items': out,
         'errors': errors,
-        'credit': 'Official U.S. government public information. The SEC states information on sec.gov may be copied or further distributed, including for commercial purposes, without the SEC’s permission (sec.gov/privacy). Federal Reserve, FDIC, BLS and Treasury releases are U.S. Government works (17 U.S.C. §105). Each headline links to its official page.',
+        'credit': 'Official U.S. government public information. Federal Reserve, FDIC, BLS and BEA releases are U.S. Government works (17 U.S.C. §105). Each headline links to its official page.',
     }
     os.makedirs(os.path.dirname(DST) or '.', exist_ok=True)
     with open(DST, 'w') as f:
