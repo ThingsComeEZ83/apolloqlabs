@@ -1,6 +1,38 @@
 {
- "built": "2026-11-25T03:46:40Z",
+ "built": "2026-11-26T00:33:27Z",
  "items": [
+  {
+   "t": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+   "src": "Federal Reserve",
+   "kind": "press releases",
+   "at": "2026-11-25T20:00:00Z",
+   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+  },
+  {
+   "t": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+   "src": "Federal Reserve",
+   "kind": "press releases",
+   "at": "2026-11-25T20:00:00Z",
+   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+  },
+  {
+   "t": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+   "src": "BEA",
+   "kind": "economic releases",
+   "at": "2026-11-25T13:30:00Z",
+   "home": "https://www.bea.gov/news"
+  },
+  {
+   "t": "Personal Income and Outlays, October 2026",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "src": "BEA",
+   "kind": "economic releases",
+   "at": "2026-11-25T13:30:00Z",
+   "home": "https://www.bea.gov/news"
+  },
   {
    "t": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
@@ -16,14 +48,6 @@
    "kind": "press releases",
    "at": "2026-11-20T21:15:00Z",
    "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Major Economic Indicators Latest Numbers",
-   "url": "https://www.bls.gov/bls/",
-   "src": "BLS",
-   "kind": "economic releases",
-   "at": "2026-11-20T15:03:24Z",
-   "home": "https://www.bls.gov/"
   },
   {
    "t": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
@@ -146,14 +170,6 @@
    "home": "https://www.fdic.gov/news/"
   },
   {
-   "t": "GDP (Advance Estimate), 3rd Quarter 2026",
-   "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-   "src": "BEA",
-   "kind": "economic releases",
-   "at": "2026-10-29T12:30:00Z",
-   "home": "https://www.bea.gov/news"
-  },
-  {
    "t": "Personal Income and Outlays, September 2026",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
    "src": "BEA",
@@ -207,22 +223,6 @@
    "src": "Federal Reserve",
    "kind": "press releases",
    "at": "2026-10-07T18:00:00Z",
-   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-   "src": "Federal Reserve",
-   "kind": "press releases",
-   "at": "2026-10-05T20:30:00Z",
-   "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-   "src": "Federal Reserve",
-   "kind": "press releases",
-   "at": "2026-10-02T20:45:00Z",
    "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
   },
   {
@@ -322,6 +322,8 @@
    "home": "https://www.bea.gov/news"
   }
  ],
- "errors": [],
+ "errors": [
+  "BLS: HTTP Error 403: Forbidden"
+ ],
  "credit": "Official U.S. government public information. Federal Reserve, FDIC, BLS and BEA releases are U.S. Government works (17 U.S.C. \u00a7105). Each headline links to its official page."
 }
