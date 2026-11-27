@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:06.655
+Apollo Q Labs. Level four, module two: stops and the expected move.
+
+2
+00:00:06.955 --> 00:00:16.065
+Average True Range, or A T R, over fourteen bars, fourteen price periods, is a standard measure of how much the price has been moving day to day.
+
+3
+00:00:16.065 --> 00:00:26.563
+A stop, the price where you would exit a losing trade, placed a few A T Rs away aims to avoid ordinary swings, at the cost of a wider, and larger, risk per share.
+
+4
+00:00:26.563 --> 00:00:36.207
+A long stop, under a buy, is entry minus A T R times the multiple. A short stop, above a sell, is entry plus A T R times the multiple.
+
+5
+00:00:36.507 --> 00:00:44.359
+Example: entry one hundred, A T R two dollars, multiple two. The distance is four dollars, or four percent.
+
+6
+00:00:44.359 --> 00:00:48.733
+The long stop is ninety six, and the short stop is one oh four.
+
+7
+00:00:48.733 --> 00:00:59.849
+Too small a multiple puts the stop inside normal noise, everyday price wiggles. Put this distance into Position size, so the share count and the stop agree.
+
+8
+00:01:00.149 --> 00:01:05.719
+Implied volatility, or I V, is the expected yearly move priced into options.
+
+9
+00:01:05.719 --> 00:01:15.960
+This card turns that yearly figure into a range over the calendar days you choose: price, times I V, times the square root of days divided by three sixty five.
+
+10
+00:01:16.260 --> 00:01:26.395
+Example: price one hundred, I V twenty five percent, thirty days. The expected move is about seven seventeen, or seven point two percent.
+
+11
+00:01:26.395 --> 00:01:37.105
+The sixty eight percent range, plus or minus one standard deviation, a typical size move, is ninety two eighty three to one oh seven seventeen.
+
+12
+00:01:37.105 --> 00:01:45.064
+The ninety five percent range, two standard deviations, is eighty five sixty seven to one fourteen thirty three.
+
+13
+00:01:45.064 --> 00:01:55.647
+The range is not a cap. About one move in three lands outside the sixty eight percent range, and about one in twenty outside the ninety five percent range.
+
+14
+00:01:55.947 --> 00:02:05.676
+Recap: a stop a few A T Rs away avoids ordinary swings, the expected move comes from I V and the days ahead, and its range is not a cap.
+
+15
+00:02:05.676 --> 00:02:09.283
+Next, read the lessons, then take the six question quiz.

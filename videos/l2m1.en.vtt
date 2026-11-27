@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:06.335
+Apollo Q Labs. Level two, module one: long calls and long puts.
+
+2
+00:00:06.635 --> 00:00:16.897
+A long call is a bullish trade, a bet the stock will rise. Buy one call, the right to buy one hundred shares at the strike, the price the option lets you buy or sell at.
+
+3
+00:00:16.897 --> 00:00:24.195
+Use it when you expect a meaningful rise before expiration, the option’s last day, and want limited, defined risk.
+
+4
+00:00:24.195 --> 00:00:36.932
+Max profit is unlimited. Max loss is the premium paid, the price of an option. Break even, the stock price at expiration where profit or loss is zero, is the strike plus the premium paid.
+
+5
+00:00:37.232 --> 00:00:48.327
+For example, buy the one oh five call, with a one hundred and five dollar strike, for two dollars, or two hundred dollars. At or below one oh five, you lose the two hundred.
+
+6
+00:00:48.327 --> 00:00:53.640
+Break even is one oh seven. At one fifteen, the gain is eight hundred dollars.
+
+7
+00:00:53.940 --> 00:01:03.520
+Time decay, the loss of value as time passes, works against you every day. You can lose all of the premium if the stock finishes at or below the strike.
+
+8
+00:01:03.520 --> 00:01:11.543
+And I V crush, a sharp drop in I V after an event, which lowers option prices, can hurt even when you are right on direction.
+
+9
+00:01:11.843 --> 00:01:19.993
+A long put is a bearish trade, a bet the stock will fall. Buy one put, the right to sell one hundred shares at the strike.
+
+10
+00:01:19.993 --> 00:01:25.840
+Use it when you expect a meaningful drop, or want to insure shares you own against a fall.
+
+11
+00:01:25.840 --> 00:01:35.612
+Max loss is the premium paid. Break even is the strike minus the premium paid. Max profit is reached if the stock goes to zero dollars.
+
+12
+00:01:35.912 --> 00:01:43.465
+For example, buy the ninety five put, with a ninety five dollar strike, for one dollar eighty, or one hundred and eighty dollars.
+
+13
+00:01:43.465 --> 00:01:49.269
+Break even is ninety three twenty. At eighty five, the gain is eight hundred and twenty dollars.
+
+14
+00:01:49.569 --> 00:01:57.251
+Time decay and I V crush work against you. You can lose the full premium if the stock stays at or above the strike.
+
+15
+00:01:57.551 --> 00:02:06.704
+Recap: a long call is a bullish trade, and a long put is a bearish one. Both risk only the premium, and time decay works against both.
+
+16
+00:02:06.704 --> 00:02:10.311
+Next, read the lessons, then take the six question quiz.

@@ -1,0 +1,66 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:07.465
+Apollo Q Labs. Level three, module four: liquidity, big risks and model limits.
+
+2
+00:00:07.765 --> 00:00:15.639
+Every option has a bid, the highest price a buyer will currently pay, and an ask, the lowest price a seller will currently accept.
+
+3
+00:00:15.639 --> 00:00:21.059
+Wide bid ask spreads, big gaps between the two, cost you on the way in and on the way out.
+
+4
+00:00:21.059 --> 00:00:30.809
+Enter your actual fill price, the price your order actually gets, in each leg, each of the separate options in your trade, so the projections reflect what you really paid.
+
+5
+00:00:31.109 --> 00:00:43.207
+A naked, or uncovered, short call, selling a call, the right to buy 100 shares at the strike, without owning the shares, has no maximum loss: the stock can keep rising.
+
+6
+00:00:43.207 --> 00:00:59.464
+Short puts, the right to sell 100 shares at the strike that you sold, covered calls, calls sold against shares you own, and stock positions have large losses if the stock collapses. The Max loss card and warnings show these clearly.
+
+7
+00:00:59.464 --> 00:01:04.031
+Treat unlimited as a stop sign unless you fully understand it.
+
+8
+00:01:04.331 --> 00:01:11.457
+Apollo Q Labs projections use Black Scholes, a standard option pricing formula, with the inputs you provide.
+
+9
+00:01:11.457 --> 00:01:28.077
+That means one volatility for all strikes, the prices the option lets you buy or sell at, no dividends, which are company cash payouts, European style exercise, meaning only at expiration, the option’s last day, a single expiration date, and no fees.
+
+10
+00:01:28.077 --> 00:01:40.239
+Real prices also depend on supply and demand, skew, meaning different implied volatility at different strikes, news, and early exercise. Projections are estimates, not guarantees.
+
+11
+00:01:40.539 --> 00:01:55.580
+Charts, quotes, top movers, the economic calendar and news are TradingView widgets, panels TradingView licenses and serves. U.S. stock data there is delayed, and Apollo Q Labs never copies or stores it.
+
+12
+00:01:55.580 --> 00:02:10.472
+The risk free rate, the baseline interest rate, is the U.S. Treasury’s thirteen week bill yield, and filings, company reports, come from S E C Edgar (the U.S. regulator’s public filing database). Both are public.
+
+13
+00:02:10.472 --> 00:02:24.276
+Option chains marked MODEL are Apollo Q Labs Black Scholes values from the price and volatility you enter, or your own optional data key, not exchange quotes, meaning not real market prices.
+
+14
+00:02:24.276 --> 00:02:37.397
+MODEL prices are Apollo Q Labs estimates, not live quotes. Real bids and asks can be different, so use the model as a starting point and compare it with a live quote before you trade.
+
+15
+00:02:37.697 --> 00:02:46.616
+Recap: wide bid ask spreads cost you both ways, treat unlimited as a stop sign, and model projections are estimates, not guarantees.
+
+16
+00:02:46.616 --> 00:02:50.223
+Next, read the lessons, then take the six question quiz.
+

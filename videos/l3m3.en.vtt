@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:07.359
+Apollo Q Labs. Level three, module three: assignment, expiration and pin risk.
+
+2
+00:00:07.659 --> 00:00:19.031
+If you are short an option, meaning you sold it, you can be assigned, meaning made to buy or sell the shares, on any business day before expiration, the option’s last day, not just at the end.
+
+3
+00:00:19.031 --> 00:00:37.592
+Short calls, the right to buy 100 shares at the strike that you sold, are most often assigned early just before an ex dividend date, the cutoff for getting the next dividend. Short puts, the right to sell 100 shares at the strike that you sold, are assigned when deep in the money, worth a lot if used now.
+
+4
+00:00:37.892 --> 00:00:49.840
+Assignment on a short call means you deliver one hundred shares at the strike, the price the option lets you buy or sell at, or end up short shares, owing shares you do not own.
+
+5
+00:00:49.840 --> 00:00:54.684
+Assignment on a short put means you buy one hundred shares at the strike.
+
+6
+00:00:54.684 --> 00:01:03.773
+In a spread, a trade that buys one option and sells another, your long leg, the option you bought, still protects you, but you must act on it.
+
+7
+00:01:04.073 --> 00:01:12.032
+At expiration, the option’s last day, options in the money by one cent or more are exercised, meaning used, automatically.
+
+8
+00:01:12.032 --> 00:01:17.964
+If the stock closes near a short strike, you may not know whether you will be assigned until after the close.
+
+9
+00:01:17.964 --> 00:01:24.557
+You could start the next trading day holding a stock position you did not expect. That uncertainty is pin risk.
+
+10
+00:01:24.557 --> 00:01:27.929
+Closing positions before the final day avoids this.
+
+11
+00:01:28.229 --> 00:01:39.580
+Recap: short options can be assigned on any business day. A short call delivers shares, a short put buys them, and closing before the final day avoids pin risk.
+
+12
+00:01:39.580 --> 00:01:43.443
+Next, read the lessons, then take the six question quiz.

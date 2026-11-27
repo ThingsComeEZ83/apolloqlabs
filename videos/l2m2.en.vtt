@@ -1,0 +1,85 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:07.060
+Apollo Q Labs. Level two, module two: covered calls and cash secured puts.
+
+2
+00:00:07.360 --> 00:00:25.068
+A covered call is neutral to mildly bullish, expecting the stock to hold steady or rise a little. Own one hundred shares, and sell one call, the right to buy 100 shares at the strike, the price the option lets you buy or sell at, usually out of the money, with a strike above today’s price.
+
+3
+00:00:25.068 --> 00:00:29.741
+Use it when you are happy to sell the shares at a higher price, while collecting income.
+
+4
+00:00:29.741 --> 00:00:44.335
+Max profit is the strike minus stock cost, plus premium, the price of an option, times one hundred. Break even, the stock price at expiration where profit or loss is zero, is the stock cost minus the premium received.
+
+5
+00:00:44.335 --> 00:00:48.368
+Max loss is substantial, if the stock goes to zero dollars.
+
+6
+00:00:48.668 --> 00:01:01.683
+For example, own one hundred shares at one hundred dollars, and sell the one oh five call, with a one hundred and five dollar strike, for one dollar fifty, which is plus one hundred and fifty dollars.
+
+7
+00:01:01.683 --> 00:01:04.116
+Break even is ninety eight fifty.
+
+8
+00:01:04.116 --> 00:01:15.317
+Max profit is five plus one fifty, times one hundred, or six hundred and fifty dollars, if called away, meaning your shares are sold at the strike, at one oh five.
+
+9
+00:01:15.617 --> 00:01:27.608
+Upside is capped at the strike. If the stock is above the strike, your shares can be called away, possibly early, especially just before an ex dividend date, the cutoff for getting the next dividend.
+
+10
+00:01:27.608 --> 00:01:30.340
+The premium only slightly cushions a drop.
+
+11
+00:01:30.640 --> 00:01:45.063
+A cash secured put is neutral to bullish, expecting the stock to hold steady or rise. Sell one put, giving the buyer the right to sell you shares at the strike, with the strike times one hundred in cash set aside.
+
+12
+00:01:45.063 --> 00:01:50.525
+Use it when you would like to own the stock at a lower price, and want to be paid while you wait.
+
+13
+00:01:50.525 --> 00:01:56.649
+Max profit is the premium received. Break even is the strike minus the premium received.
+
+14
+00:01:56.649 --> 00:02:00.960
+Max loss is substantial, if the stock goes to zero dollars.
+
+15
+00:02:01.260 --> 00:02:12.525
+For example, sell the ninety five put, with a ninety five dollar strike, for one dollar fifty, which is plus one hundred and fifty dollars, with nine thousand five hundred dollars reserved.
+
+16
+00:02:12.525 --> 00:02:20.847
+Break even is ninety three fifty. Above ninety five at expiration, the option’s last day, you keep the one hundred and fifty dollars.
+
+17
+00:02:20.847 --> 00:02:30.320
+If assigned, meaning made to buy or sell the shares, you buy at ninety five, an effective cost, your real cost after the premium, of ninety three fifty.
+
+18
+00:02:30.620 --> 00:02:40.520
+If the stock falls below the strike, you will likely be assigned, and must buy one hundred shares at the strike, even if the stock has fallen much further.
+
+19
+00:02:40.520 --> 00:02:44.063
+Only use strikes where you truly want to own the shares.
+
+20
+00:02:44.363 --> 00:02:52.193
+Recap: both trades sell an option to collect income. One sells against shares you own, and the other against cash set aside.
+
+21
+00:02:52.193 --> 00:02:55.800
+Next, read the lessons, then take the six question quiz.

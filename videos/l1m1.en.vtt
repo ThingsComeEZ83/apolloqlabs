@@ -1,0 +1,86 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.887
+Apollo Q Labs. Level one, module one: what an option is.
+
+2
+00:00:06.187 --> 00:00:09.793
+An option is a contract on one hundred shares of a stock.
+
+3
+00:00:09.793 --> 00:00:16.365
+It has a strike price (the fixed price you can buy or sell at) and an expiration date (the option’s last day).
+
+4
+00:00:16.665 --> 00:00:22.427
+A call gives the buyer the right, but not the obligation, to buy the shares at the strike.
+
+5
+00:00:22.427 --> 00:00:26.183
+A put gives the buyer the right to sell the shares at the strike.
+
+6
+00:00:26.483 --> 00:00:29.556
+For every buyer, there is a seller, called the writer.
+
+7
+00:00:29.556 --> 00:00:39.648
+The writer is paid the premium (the price of the option) and takes on the obligation to buy or sell the shares if the buyer exercises (chooses to use the option).
+
+8
+00:00:39.948 --> 00:00:44.813
+Prices are quoted per share, but one contract covers one hundred shares.
+
+9
+00:00:44.813 --> 00:00:51.428
+So, a call priced at two dollars and fifty cents costs two hundred and fifty dollars per contract.
+
+10
+00:00:51.428 --> 00:00:53.904
+Two contracts cost five hundred.
+
+11
+00:00:54.204 --> 00:00:59.965
+A long call at expiration: buy the one oh five call for two dollars, or two hundred dollars.
+
+12
+00:00:59.965 --> 00:01:04.660
+At or below one oh five, the loss is the two hundred dollars paid, and no more.
+
+13
+00:01:04.660 --> 00:01:12.512
+Break even is one oh seven (the stock price where you neither gain nor lose). At one fifteen, the gain is eight hundred dollars.
+
+14
+00:01:12.812 --> 00:01:20.237
+A long put is the opposite. Buy the ninety five put for one dollar eighty, or one hundred and eighty dollars.
+
+15
+00:01:20.237 --> 00:01:26.425
+Break even is ninety three twenty. At eighty five, the gain is eight hundred and twenty dollars.
+
+16
+00:01:26.425 --> 00:01:30.011
+At or above ninety five, the full premium is lost.
+
+17
+00:01:30.311 --> 00:01:37.480
+U.S. stock options are American style: the holder can exercise on any business day until expiration.
+
+18
+00:01:37.480 --> 00:01:45.567
+At expiration, options in the money by one cent or more are exercised automatically, unless the holder instructs otherwise.
+
+19
+00:01:45.567 --> 00:01:51.264
+Most traders close before expiration, by trading the option back, rather than exercising.
+
+20
+00:01:51.564 --> 00:01:58.755
+Recap: a call is the right to buy, a put is the right to sell, and one contract covers one hundred shares.
+
+21
+00:01:58.755 --> 00:02:02.617
+Next, read the lessons, then take the six question quiz.
+

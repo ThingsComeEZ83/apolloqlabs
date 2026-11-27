@@ -1,0 +1,90 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:08.063
+Welcome to Apollo Q Labs. Level two, module four: iron condors, straddles, and strangles.
+
+2
+00:00:08.363 --> 00:00:18.519
+An iron condor bets on a range: sell a put below the price and a call above, rights to sell and buy, each with one bought further out; equal gaps, same last day.
+
+3
+00:00:18.519 --> 00:00:23.512
+Best when I V, the expected yearly move priced into options, is fairly high.
+
+4
+00:00:23.512 --> 00:00:36.313
+Max profit: the credit, cash received, if it ends between the sold strikes, the prices the option lets you buy or sell at. Max loss: the width of the wider spread minus the net credit, times one hundred.
+
+5
+00:00:36.613 --> 00:00:50.097
+Buy the ninety put for forty cents, sell the ninety five put for one dollar twenty, sell the one oh five call for one dollar twenty, buy the one ten call for forty cents. Net credit: one sixty.
+
+6
+00:00:50.097 --> 00:01:05.843
+Break evens, the stock prices at expiration where profit or loss is zero: ninety three forty and one oh six sixty. Max loss is five dollars minus one sixty, times one hundred, which is three hundred and forty dollars.
+
+7
+00:01:06.143 --> 00:01:10.517
+A big move either way brings max loss, usually above max profit.
+
+8
+00:01:10.517 --> 00:01:19.948
+Sold strikes can be assigned early, meaning made to buy or sell the shares; ending near one brings pin risk, uncertainty about whether you will be assigned.
+
+9
+00:01:20.248 --> 00:01:28.484
+A long straddle bets on a big move either way: a call and a put, same strike and last day, usually near today’s price.
+
+10
+00:01:28.484 --> 00:01:33.243
+It suits a big move, direction unknown, like earnings, company results.
+
+11
+00:01:33.243 --> 00:01:40.284
+Max profit: unlimited upward. Max loss: the premium, the price of an option, if it ends at the strike.
+
+12
+00:01:40.584 --> 00:01:48.521
+The one hundred call costs four dollars and the one hundred put costs three dollars and eighty cents, so together they cost seven eighty.
+
+13
+00:01:48.521 --> 00:01:54.496
+Break evens: ninety two twenty and one oh seven eighty; at one fifteen, up seven twenty.
+
+14
+00:01:54.796 --> 00:01:58.125
+Costly: it needs more move than the market expects.
+
+15
+00:01:58.125 --> 00:02:10.543
+Time decay, the loss of value as time passes, is heavy, and I V crush, a sharp drop in I V after an event, which lowers option prices, can hurt despite a decent move.
+
+16
+00:02:10.843 --> 00:02:16.049
+A long strangle, a cheaper straddle: a put below the price, a call above, same last day.
+
+17
+00:02:16.049 --> 00:02:20.851
+It needs a bigger move; max loss is the premium, if it ends between the strikes.
+
+18
+00:02:21.151 --> 00:02:29.600
+The ninety five put costs one dollar fifty and the one oh five call costs one dollar sixty, so together they cost three ten.
+
+19
+00:02:29.600 --> 00:02:35.639
+Break evens: ninety one ninety and one oh eight ten; between the strikes, lose three ten.
+
+20
+00:02:35.939 --> 00:02:40.463
+Both can expire worthless; decay and I V crush are the main enemies.
+
+21
+00:02:40.763 --> 00:02:44.561
+Recap: these bet on how far the stock moves, not which way.
+
+22
+00:02:44.561 --> 00:02:47.891
+Next: the lessons, then the six question quiz.
+

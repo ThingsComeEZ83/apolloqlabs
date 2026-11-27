@@ -1,0 +1,66 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:07.551
+Apollo Q Labs. Level one, module three: buying, selling, and implied volatility.
+
+2
+00:00:07.851 --> 00:00:16.919
+Every option trade has two sides: the buyer, who is long, meaning you bought it, and the seller, who is short, meaning you sold it and carry the obligation.
+
+3
+00:00:16.919 --> 00:00:22.125
+The buyer pays the premium, the price of an option. Risk is limited to that premium.
+
+4
+00:00:22.125 --> 00:00:29.316
+The buyer needs the stock to move enough, soon enough. Time decay, the loss of value as time passes, works against you.
+
+5
+00:00:29.316 --> 00:00:33.691
+The seller collects the premium up front. Profit is capped at that premium.
+
+6
+00:00:33.691 --> 00:00:43.121
+Time decay works for the seller. But you can be assigned, meaning made to buy or sell the shares, and some short positions have large or unlimited risk.
+
+7
+00:00:43.421 --> 00:00:46.388
+Next: implied volatility, or I V.
+
+8
+00:00:46.388 --> 00:00:50.357
+I V is the expected yearly move priced into options.
+
+9
+00:00:50.357 --> 00:00:57.868
+High I V makes options expensive, which favors sellers. Low I V makes them cheap, which favors buyers.
+
+10
+00:00:58.168 --> 00:01:08.857
+A rough one standard deviation move, meaning a typical size move, over D days, is price, times I V, times the square root of D divided by three sixty five.
+
+11
+00:01:08.857 --> 00:01:13.488
+Take a one hundred dollar stock, with thirty percent I V, over thirty days.
+
+12
+00:01:13.488 --> 00:01:21.127
+One hundred times point three, times the square root of thirty over three sixty five, is about eight dollars and sixty cents.
+
+13
+00:01:21.127 --> 00:01:31.944
+About two times out of three the stock ends within plus or minus eight dollars and sixty cents of today’s price. One time in three it goes further, so this is not a limit.
+
+14
+00:01:32.244 --> 00:01:39.392
+I V often rises before events like earnings, a company’s results report, and drops right after.
+
+15
+00:01:39.692 --> 00:01:48.995
+Recap: buyers risk only the premium, sellers collect it but can face large risk, high I V favors sellers, and low I V favors buyers.
+
+16
+00:01:48.995 --> 00:01:52.601
+Next, read the lessons, then take the six question quiz.
+

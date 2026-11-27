@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.865
+Apollo Q Labs. Level two, module three: vertical spreads.
+
+2
+00:00:06.165 --> 00:00:25.431
+A bull call spread, buying one call, the right to buy 100 shares at the strike, and selling another, is moderately bullish, expecting a moderate rise. Buy one call with the lower strike, the price the option lets you buy or sell at, and sell one call with the higher strike, with the same expiration, the option’s last day.
+
+3
+00:00:25.431 --> 00:00:30.936
+Use it when you expect a rise to about a target price, and want to pay less than for a long call.
+
+4
+00:00:30.936 --> 00:00:48.601
+Max loss is the net debit paid, the cash you pay to open. Max profit is the strike width, the gap between the two strikes, minus the net debit, times one hundred. Break even, the stock price at expiration where profit or loss is zero, is the lower strike plus the net debit.
+
+5
+00:00:48.901 --> 00:00:59.356
+For example, buy the one hundred call at three fifty, and sell the one oh five call at one fifty. That is a debit of two dollars, or two hundred dollars.
+
+6
+00:00:59.356 --> 00:01:03.560
+Break even is one oh two. Max loss is two hundred dollars.
+
+7
+00:01:03.560 --> 00:01:10.516
+Max profit is five minus two, times one hundred, or three hundred dollars, at one oh five or higher.
+
+8
+00:01:10.816 --> 00:01:18.583
+Profit is capped at the upper strike. Time decay, the loss of value as time passes, hurts while the stock is below break even.
+
+9
+00:01:18.583 --> 00:01:30.019
+The short call, the one you sold, can be assigned early, meaning made to buy or sell the shares before expiration. Close or manage both legs, the separate options in your trade, together.
+
+10
+00:01:30.319 --> 00:01:45.872
+A bear put spread, buying one put, the right to sell 100 shares at the strike, and selling another, is moderately bearish, expecting a moderate drop. Buy one higher strike put, and sell one lower strike put, same expiration.
+
+11
+00:01:45.872 --> 00:01:52.999
+Use it when you expect a decline to about a target price, and want a cheaper, defined risk bearish trade.
+
+12
+00:01:52.999 --> 00:02:03.709
+Max loss is the net debit paid. Max profit is the strike width minus the net debit, times one hundred. Break even is the higher strike minus the net debit.
+
+13
+00:02:04.009 --> 00:02:14.208
+For example, buy the one hundred put at three twenty, and sell the ninety five put at one forty. That is a debit of one dollar eighty, or one hundred and eighty dollars.
+
+14
+00:02:14.208 --> 00:02:23.809
+Break even is ninety eight twenty. Max profit is five minus one eighty, times one hundred, or three hundred and twenty dollars, at ninety five or lower.
+
+15
+00:02:24.109 --> 00:02:33.796
+Profit is capped at the lower strike. Time decay hurts while the stock is above break even. The short put, the one you sold, can be assigned early.
+
+16
+00:02:34.096 --> 00:02:40.625
+Recap: a vertical spread buys one option and sells another, so both the risk and the reward are defined.
+
+17
+00:02:40.625 --> 00:02:44.232
+Next, read the lessons, then take the six question quiz.

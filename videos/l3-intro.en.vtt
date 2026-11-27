@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.119
+Apollo Q Labs. Level three: Risk and Volatility.
+
+2
+00:00:05.419 --> 00:00:18.412
+The Greeks, measures of how an option reacts, time decay, the loss of value as time passes, I V crush, a sharp drop in I V after an event, which lowers option prices, assignment, and model limits.
+
+3
+00:00:18.412 --> 00:00:25.944
+Module one: Delta and gamma. How an option's price reacts to the stock moving, and how fast that changes.
+
+4
+00:00:25.944 --> 00:00:35.396
+Module two: Theta, vega, rho and I V crush. Time decay, volatility, how much prices swing, interest rates, and I V after big events.
+
+5
+00:00:35.396 --> 00:00:47.344
+Module three: Assignment, expiration and pin risk. What can happen to options you sold near expiration: being made to buy or sell shares, or not knowing if you will be.
+
+6
+00:00:47.344 --> 00:00:57.564
+Module four: Liquidity, big risks and model limits. Fill prices, the price your order actually gets, unlimited-risk positions, and what any model can't see.
+
+7
+00:00:57.864 --> 00:00:59.764
+Start with module one.

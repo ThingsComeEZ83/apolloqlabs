@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.673
+Apollo Q Labs. Level three, module one: delta and gamma.
+
+2
+00:00:05.973 --> 00:00:11.180
+Delta measures direction: the change in option price for a one dollar move in the stock.
+
+3
+00:00:11.180 --> 00:00:21.805
+Calls, the right to buy 100 shares at the strike, range from zero to plus one, and puts, the right to sell 100 shares at the strike, from zero to minus one.
+
+4
+00:00:21.805 --> 00:00:38.447
+At the money options, with a strike, the price the option lets you buy or sell at, near the stock price, sit near plus or minus point five. Deep in the money options, worth a lot if used now, sit near one. Far out of the money options, worth nothing if used now, sit near zero.
+
+5
+00:00:38.447 --> 00:00:44.720
+Selling flips the sign: short calls, calls you sold, have negative delta, and short puts, positive.
+
+6
+00:00:45.020 --> 00:00:53.917
+Many traders also read delta as a rough chance of finishing in the money. A point three delta call is roughly a thirty percent shot.
+
+7
+00:00:53.917 --> 00:00:57.033
+But in the money is not the same as profitable.
+
+8
+00:00:57.333 --> 00:01:04.119
+Example: a twenty dollar call, meaning its strike is twenty dollars, priced at two dollars, with delta point five.
+
+9
+00:01:04.119 --> 00:01:11.907
+The stock rises one dollar, so the call is about two fifty. On one contract, one hundred shares, that is plus fifty dollars.
+
+10
+00:01:12.207 --> 00:01:18.437
+Gamma is how fast delta changes: the change in delta for a one dollar move in the stock.
+
+11
+00:01:18.437 --> 00:01:30.961
+Gamma is largest for at the money options close to expiration, the option’s last day. That is why short dated trades, with little time left, can swing from winning to losing quickly.
+
+12
+00:01:30.961 --> 00:01:37.917
+Buyers have positive gamma, so moves help them. Sellers have negative gamma, so big moves hurt them.
+
+13
+00:01:38.217 --> 00:01:46.069
+Example: delta point five, gamma point oh five. The stock rises one dollar, so delta becomes about point five five.
+
+14
+00:01:46.369 --> 00:01:59.235
+Apollo Q Labs shows Greeks, these measures of how an option reacts, for your whole position: the per share Greek, times one hundred, times the number of contracts, with sells counted negative.
+
+15
+00:01:59.235 --> 00:02:06.468
+Add them across legs, the separate options in your trade, to see the net exposure, your overall sensitivity.
+
+16
+00:02:06.468 --> 00:02:11.867
+Greeks change constantly as price and time move, so treat them as a snapshot.
+
+17
+00:02:12.167 --> 00:02:22.024
+Recap: delta is how much the option price moves for a one dollar stock move, gamma is how fast delta changes, and position Greeks add up your whole trade.
+
+18
+00:02:22.024 --> 00:02:25.631
+Next, read the lessons, then take the six question quiz.

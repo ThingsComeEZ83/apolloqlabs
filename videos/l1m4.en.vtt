@@ -1,0 +1,86 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:06.015
+Apollo Q Labs. Level one, module four: reading the dashboard.
+
+2
+00:00:06.315 --> 00:00:11.756
+Let us read the dashboard, the screen that sums up your trade, starting with net debit or credit.
+
+3
+00:00:11.756 --> 00:00:15.533
+Debit is cash you pay to open. Credit is cash you receive.
+
+4
+00:00:15.533 --> 00:00:21.380
+Debit trades want the option value to grow. Credit trades want it to shrink, ideally to zero.
+
+5
+00:00:21.680 --> 00:00:28.081
+Max profit and max loss are the best and worst outcome at expiration, the option’s last day.
+
+6
+00:00:28.081 --> 00:00:32.925
+They are computed exactly from your legs, the separate options in your trade.
+
+7
+00:00:32.925 --> 00:00:48.500
+Unlimited appears when one side has no cap, such as a long call’s upside, a call, the right to buy 100 shares at the strike, that you bought, or a naked short call’s downside, a call sold without owning the shares.
+
+8
+00:00:48.800 --> 00:00:54.561
+Break even is the stock price at expiration where profit or loss (P/L) is zero.
+
+9
+00:00:54.561 --> 00:01:07.107
+Some trades, like straddles, a call plus a put, the right to sell, at the same strike, the price the option lets you buy or sell at, and iron condors, a four option trade that profits in a range, have two.
+
+10
+00:01:07.107 --> 00:01:10.820
+The percent under it shows how far the stock has to move from today.
+
+11
+00:01:11.120 --> 00:01:20.615
+Probability of profit, or P O P, is the Apollo Q Labs model estimate of the chance the trade is profitable at expiration.
+
+12
+00:01:20.615 --> 00:01:33.693
+It assumes the stock moves randomly with the I V you entered, the expected yearly move priced into options, using a log normal distribution, a standard math model of random price moves.
+
+13
+00:01:33.693 --> 00:01:41.012
+It does not know about news, trends, or earnings, and real moves are often larger than the model expects.
+
+14
+00:01:41.312 --> 00:01:46.284
+Finally, the payout chart, a picture of profit or loss at each stock price.
+
+15
+00:01:46.284 --> 00:01:52.024
+The white line is profit or loss on expiration day. This is exact math, not a model.
+
+16
+00:01:52.024 --> 00:02:04.505
+The yellow dashed line is the projected profit or loss before expiration, at the what if days remaining, the days left you choose to test, using Black Scholes, a standard option pricing formula.
+
+17
+00:02:04.505 --> 00:02:08.773
+Green and red areas are the profit and loss zones at expiration.
+
+18
+00:02:08.773 --> 00:02:16.455
+The gray marker is the price now. The blue marker is your what if price, a price you choose to test. Yellow dots are break evens.
+
+19
+00:02:16.455 --> 00:02:20.979
+Hover over, or touch, the chart to read exact values at any price.
+
+20
+00:02:21.279 --> 00:02:28.896
+Recap: debit or credit, max profit and max loss, break even, probability of profit, and the payout chart.
+
+21
+00:02:28.896 --> 00:02:32.759
+Next, read the lessons, then take the six question quiz.
+

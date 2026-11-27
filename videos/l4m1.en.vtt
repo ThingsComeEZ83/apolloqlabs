@@ -1,0 +1,74 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:07.231
+Apollo Q Labs. Level four, module one: position sizing and risk and reward.
+
+2
+00:00:07.531 --> 00:00:14.956
+Options are leveraged, meaning small moves get magnified, so a small move can mean a large percentage gain or loss.
+
+3
+00:00:14.956 --> 00:00:30.061
+Many experienced traders cap the max loss on any single trade at a small slice of their account, often one to two percent. Check the Capital at risk card, the worst-case loss at expiration, the option’s last day, before you place a trade.
+
+4
+00:00:30.061 --> 00:00:45.615
+For a cash secured put, a sold right to sell backed by cash, Capital at risk is the cash needed to buy the shares if you are assigned, meaning made to buy or sell the shares: the strike, the price the option lets you buy or sell at, times one hundred.
+
+5
+00:00:45.915 --> 00:00:52.295
+The Position size card turns a risk budget, the most you are willing to lose, into a share count.
+
+6
+00:00:52.295 --> 00:00:59.976
+You choose how much of the account you would lose if the trade hits your stop, the price where you would exit if it goes against you.
+
+7
+00:00:59.976 --> 00:01:09.172
+Shares equal the account times the risk percent, divided by the gap between entry, your planned buy price, and stop, rounded down.
+
+8
+00:01:09.472 --> 00:01:16.001
+Example: a twenty five thousand dollar account, one percent risk, entry one hundred, stop ninety five.
+
+9
+00:01:16.001 --> 00:01:24.685
+The gap is five dollars, and one percent is two hundred and fifty dollars, so you can buy fifty shares. Dollar risk is two hundred and fifty.
+
+10
+00:01:24.685 --> 00:01:33.945
+Position value, the money the shares use, is five thousand dollars, twenty percent of the account. A one percent risk is not a one percent position.
+
+11
+00:01:33.945 --> 00:01:39.664
+A tight stop means a larger position for the same risk; a wide stop means a smaller one.
+
+12
+00:01:39.964 --> 00:01:51.677
+The Risk reward card compares the distance to your target, the planned exit if the trade goes your way, with the distance to your stop. It does not say how likely either one is.
+
+13
+00:01:51.677 --> 00:02:04.180
+The break even win rate, the share of trades that must hit the target for profit or loss (P/L) to net to zero, is one divided by one plus the reward to risk ratio.
+
+14
+00:02:04.480 --> 00:02:13.569
+Example: entry one hundred, stop ninety five, target one ten. Risk is five dollars, reward is ten dollars, so the ratio is two to one.
+
+15
+00:02:13.569 --> 00:02:22.616
+The break even win rate is one divided by three, thirty three point three percent. One trade at plus ten and two at minus five net to zero.
+
+16
+00:02:22.616 --> 00:02:29.444
+Two to one does not mean you will win two out of three times. The ratio says nothing about how often you will win.
+
+17
+00:02:29.744 --> 00:02:40.647
+Recap: cap the loss on each trade at a small slice, size shares from the gap to your stop, and remember that a higher reward to risk lets you be right less often.
+
+18
+00:02:40.647 --> 00:02:44.509
+Next, read the lessons, then take the six question quiz.
+
