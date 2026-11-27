@@ -25,45 +25,46 @@ At the money, or A T M, means the strike is about equal to the stock price.
 Out of the money, or O T M, has no value if exercised right now.
 
 7
-00:00:40.540 --> 00:00:48.093
-It is all time value, the part of the price paid for the chance of a bigger move, and it expires worthless if it stays that way.
+00:00:40.540 --> 00:00:49.501
+It is all time value (no intrinsic value), the part of the price paid for the chance of a bigger move, and it expires worthless if it stays that way.
 
 8
-00:00:48.393 --> 00:00:55.819
+00:00:49.801 --> 00:00:57.227
 Now, what is inside a premium, the price of an option? Premium equals intrinsic value, plus time value.
 
 9
-00:00:55.819 --> 00:01:00.663
+00:00:57.227 --> 00:01:02.071
 Intrinsic value is what the option is worth if exercised right now.
 
 10
-00:01:00.663 --> 00:01:10.264
+00:01:02.071 --> 00:01:11.672
 Time value, also called extrinsic value, is what traders pay for the chance of a bigger move before expiration, the option’s last day.
 
 11
-00:01:10.564 --> 00:01:21.531
+00:01:11.972 --> 00:01:22.939
 Here is an example. The stock is at one hundred and eight dollars, and the one oh five call, the call with a one hundred and five dollar strike, is priced at four dollars and fifty cents.
 
 12
-00:01:21.531 --> 00:01:30.087
+00:01:22.939 --> 00:01:31.495
 The stock is above the strike, so the call is in the money. Intrinsic value is one hundred and eight minus one oh five, which is three dollars.
 
 13
-00:01:30.087 --> 00:01:34.653
+00:01:31.495 --> 00:01:36.061
 Time value is four fifty minus three dollars, which is one dollar fifty.
 
 14
-00:01:34.953 --> 00:01:38.389
+00:01:36.361 --> 00:01:39.797
 Time value shrinks toward zero at expiration.
 
 15
-00:01:38.389 --> 00:01:43.340
+00:01:39.797 --> 00:01:44.748
 This shrinking is called time decay, the loss of value as time passes.
 
 16
-00:01:43.640 --> 00:01:52.388
+00:01:45.048 --> 00:01:53.796
 Recap: in the money has value if exercised now, out of the money is all time value, and premium is intrinsic value plus time value.
 
 17
-00:01:52.388 --> 00:01:55.995
+00:01:53.796 --> 00:01:57.403
 Next, read the lessons, then take the six question quiz.
+
