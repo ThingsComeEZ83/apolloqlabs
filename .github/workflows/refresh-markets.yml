@@ -1,0 +1,33 @@
+# Optional scheduled job for the GitHub Pages repo (apolloqlabs).
+# Updates markets-strip.json (the Markets tab summary strip) every 10 minutes on weekdays, plus a slower pass on weekends
+# so crypto stays current. Free Yahoo Finance chart data, no key.
+name: Refresh market summary strip
+on:
+  schedule:
+    - cron: '*/10 12-22 * * 1-5'
+    - cron: '17 * * * 0,6'
+    - cron: '17 23,0-11 * * 1-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  markets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch market summary snapshot
+        run: python3 fetch-markets.py
+      - name: Commit markets-strip.json when updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add markets-strip.json
+          if git diff --staged --quiet; then
+            echo "No market summary changes."
+          else
+            git commit -m "Refresh market summary strip"
+            git push
+          fi
