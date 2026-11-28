@@ -1,5 +1,5 @@
 {
- "built": "2026-11-28T04:25:07Z",
+ "built": "2026-11-28T05:05:39Z",
  "items": [
   {
    "t": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
@@ -48,14 +48,6 @@
    "kind": "press releases",
    "at": "2026-11-20T21:15:00Z",
    "home": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
-  },
-  {
-   "t": "Major Economic Indicators Latest Numbers",
-   "url": "https://www.bls.gov/bls/",
-   "src": "BLS",
-   "kind": "economic releases",
-   "at": "2026-11-20T15:03:24Z",
-   "home": "https://www.bls.gov/"
   },
   {
    "t": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
@@ -320,8 +312,18 @@
    "kind": "press releases",
    "at": "2026-06-29T13:03:22Z",
    "home": "https://www.fdic.gov/news/"
+  },
+  {
+   "t": "Personal Income and Outlays, May 2026",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+   "src": "BEA",
+   "kind": "economic releases",
+   "at": "2026-06-25T12:30:00Z",
+   "home": "https://www.bea.gov/news"
   }
  ],
- "errors": [],
+ "errors": [
+  "BLS: HTTP Error 403: Forbidden"
+ ],
  "credit": "Official U.S. government public information. Federal Reserve, FDIC, BLS and BEA releases are U.S. Government works (17 U.S.C. \u00a7105). Each headline links to its official page."
 }
